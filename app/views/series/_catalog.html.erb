@@ -9,7 +9,9 @@
       </tr>
     <% end %>
   </table>
-  <%= page_entries_info(series) %>
-  <%= catalog_previous_results_link(series) unless series.current_page == 1 %>
-  <%= catalog_next_results_link(series) unless series.current_page == series.total_pages %>
+  <%if params[:letter].blank?%>
+    <%= page_entries_info(series) %>
+    <%= catalog_previous_results_link(series) unless series.current_page == 1 %>
+    <%= catalog_next_results_link(series) unless series.current_page == series.total_pages %>
+  <%end%>
 </div>

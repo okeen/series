@@ -9,21 +9,27 @@ Feature: Paginate catalog listing series unless filtering by letter
     And '20' existing series with the letter "b"
     And I am on the series catalog page
 
-  Scenario: Existing 40, see a maximum of 16 series on the catalog page
+  Scenario: See a maximum of 16 series on the catalog page
     Then I should see '16' series listed
     And I should see the "catalog_next_results" catalog results link
     And I should not see the "catalog_previous_results" catalog results link
 
-  Scenario: Existing 40, navigate once to the next results seeing 16 series in the page
+  Scenario: Navigate once to the next results seeing 16 series in the page
     When I follow "catalog_next_results"
     Then I should see '16' series listed
     And I should see the "catalog_next_results" catalog results link
     And I should see the "catalog_previous_results" catalog results link
 
-  Scenario: Existing 40, navigate twice to the next results seeing 8 series in the page
+  Scenario: Navigate twice to the next results seeing 8 series in the page
     When I follow "catalog_next_results"
     And I follow "catalog_next_results"
     Then I should see '8' series listed
     And I should not see the "catalog_next_results" catalog results link
     And I should see the "catalog_previous_results" catalog results link
+
+  Scenario: Don't show any pagination when filtering catalog by letter
+    When I click on the "A" letter catalog filter link
+    Then I should see '20' series listed
+    And I should not see the "catalog_next_results" catalog results link
+    And I should not see the "catalog_previous_results" catalog results link
 

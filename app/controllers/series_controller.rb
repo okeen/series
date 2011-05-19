@@ -4,7 +4,9 @@ class SeriesController < ApplicationController
   def index
     series = Serie.where(nil)
     series = series.with_letter(params[:letter]) unless params[:letter].blank?
-    @series = series.all.paginate :page => params[:page], :per_page => 16
+    @series = series.all
+    #paginar si no es filtrado por letra
+    @series = @series.paginate :page => params[:page], :per_page => 16 if params[:letter].blank?
 
     respond_to do |format|
       format.html # index.html.erb
