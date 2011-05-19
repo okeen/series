@@ -3,8 +3,8 @@ class CreateSeries < ActiveRecord::Migration
     create_table :series do |t|
       t.string :title
       t.text :description
-      t.integer :seasons_count
-      t.integer :capitles_count
+      t.integer :seasons_count, :default => 0
+      t.integer :capitles_count, :default => 0
 
       t.timestamps
     end

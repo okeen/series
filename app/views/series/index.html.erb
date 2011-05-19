@@ -1,20 +1,12 @@
 <h1>Listing series</h1>
 
 <table>
+  
+<% @series.tabletize(3) do |three_series_group| %>
   <tr>
-    <th>Title</th>
-    <th>Description</th>
-    <th>Seasons count</th>
-    <th>Capitles count</th>
-    
-  </tr>
-
-<% @series.each do |series| %>
-  <tr>
-    <td><%= series.title %></td>
-    <td><%= series.description %></td>
-    <td><%= series.seasons_count %></td>
-    <td><%= series.capitles_count %></td>
+    <% three_series_group.each do |serie|%>
+      <td><%= serie.title %></td>
+    <% end %>
   </tr>
 <% end %>
 </table>
