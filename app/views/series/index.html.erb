@@ -1,0 +1,22 @@
+<h1>Listing series</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Seasons count</th>
+    <th>Capitles count</th>
+    
+  </tr>
+
+<% @series.each do |series| %>
+  <tr>
+    <td><%= series.title %></td>
+    <td><%= series.description %></td>
+    <td><%= series.seasons_count %></td>
+    <td><%= series.capitles_count %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
