@@ -1,0 +1,29 @@
+<h1>Listing capitles</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Serie</th>
+    <th>Season</th>
+    <th>Order</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @capitles.each do |capitle| %>
+  <tr>
+    <td><%= capitle.title %></td>
+    <td><%= capitle.serie %></td>
+    <td><%= capitle.season %></td>
+    <td><%= capitle.order %></td>
+    <td><%= link_to 'Show', capitle %></td>
+    <td><%= link_to 'Edit', edit_capitle_path(capitle) %></td>
+    <td><%= link_to 'Destroy', capitle, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Capitle', new_capitle_path %>

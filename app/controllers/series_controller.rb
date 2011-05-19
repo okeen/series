@@ -25,7 +25,7 @@ class SeriesController < ApplicationController
   # GET /series/1
   # GET /series/1.xml
   def show
-    @series = Serie.find(params[:id])
+    @serie = Serie.titled(params[:id]).first
 
     respond_to do |format|
       format.html # show.html.erb

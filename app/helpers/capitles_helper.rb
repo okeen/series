@@ -1,0 +1,2 @@
+module CapitlesHelper
+end

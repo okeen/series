@@ -34,12 +34,14 @@ Then /^I should not see the "([^"]*)" catalog results link$/ do |link_id|
 end
 
 Given /^an existing serie "([^"]*)" with description "([^"]*)"$/ do |serie_title, serie_description|
-  pending # express the regexp above with the code you wish you had
+  @serie= Serie.create(:title => serie_title, :description => serie_description)
 end
 
 Given /^the existing capitles for the serie "([^"]*)":$/ do |serie_title, serie_capitles_table|
-  # table is a Cucumber::Ast::Table
-  pending # express the regexp above with the code you wish you had
+  @serie = Serie.where(:title => serie_title).first
+  serie_capitles_table.hashes.each do |capitle_data|
+    @serie.capitles << Capitle.new(capitle_data)
+  end
 end
 
 Then /^I should see "([^"]*)" in the serie detail field "([^"]*)"$/ do |detail_value, detail_field|

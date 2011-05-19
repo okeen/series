@@ -1,5 +1,8 @@
 Series::Application.routes.draw do
-  resources :series
+
+  resources :series do
+      resources :capitles
+  end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -1,0 +1,33 @@
+<%= form_for(@capitle) do |f| %>
+  <% if @capitle.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@capitle.errors.count, "error") %> prohibited this capitle from being saved:</h2>
+
+      <ul>
+      <% @capitle.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :serie %><br />
+    <%= f.text_field :serie %>
+  </div>
+  <div class="field">
+    <%= f.label :season %><br />
+    <%= f.text_field :season %>
+  </div>
+  <div class="field">
+    <%= f.label :order %><br />
+    <%= f.text_field :order %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

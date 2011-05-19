@@ -14,14 +14,11 @@ module NavigationHelpers
       "/home"
     when /the series catalog\s?page/
       "/catalog"
-    when /the series with letter "([^"]*)" catalog\s?page/
+    when /the series with letter "([^"]*)" catalog\s?page/ #filtering letter
       "/catalog/#{$1}"
+    when /the "([^"]*)" serie main page/ #serie title
+      "/series/#{$1}"
 
-    # Add more mappings here.
-    # Here is an example that pulls values out of the Regexp:
-    #
-    #   when /^(.*)'s profile page$/i
-    #     user_profile_path(User.find_by_login($1))
 
     else
       begin

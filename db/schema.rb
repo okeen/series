@@ -10,7 +10,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110519010519) do
+ActiveRecord::Schema.define(:version => 20110519210231) do
+
+  create_table "capitles", :force => true do |t|
+    t.string   "title"
+    t.integer  "serie_id"
+    t.integer  "season",     :default => 0
+    t.integer  "order",      :default => 0
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "series", :force => true do |t|
     t.string   "title"
