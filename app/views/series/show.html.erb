@@ -1,19 +1,13 @@
-<p>
-  <b>Title:</b>
-  <%= @serie.title %>
+<p id="serie_title">
+  <b><%= @serie.title %></b>
 </p>
-<p>
+<p id="serie_description">
   <b>Description:</b>
   <%= @serie.description %>
 </p>
-<p>
-  <b>Seasons count:</b>
-  <%= @serie.seasons_count %>
-</p>
-
-<p>
-  <b>Capitles count:</b>
-  <%= @serie.capitles_count %>
+<p id="serie_seasons_and_capitles_info">
+  <b>Seasons:</b> <%= @serie.seasons_count %>, <b>capitles: </b><%= @serie.capitles_count %>
+  
 </p>
 
 

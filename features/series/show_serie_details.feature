@@ -19,10 +19,9 @@ Feature: Show serie details page, with its info and available capitles ordered b
 		| "title41"   | 4      | 1     |
 		| "title42"   | 4      | 2     |
 
-@wip
   Scenario: See details/info about "Lost" in its page
     When I go to the "lost" serie main page
     Then I should see "Lost" in the serie detail field "serie_title"
     And I should see "Weird stuff" in the serie detail field "serie_description"
-    And I should see "4 seasons"
+    And I should see "Seasons: 4, capitles: 10"
     

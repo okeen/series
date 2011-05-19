@@ -44,7 +44,7 @@ Given /^the existing capitles for the serie "([^"]*)":$/ do |serie_title, serie_
   end
 end
 
-Then /^I should see "([^"]*)" in the serie detail field "([^"]*)"$/ do |detail_value, detail_field|
-  pending # express the regexp above with the code you wish you had
+Then /^I should see "([^"]*)" in the serie detail field "([^"]*)"$/ do |detail_value, detail_field_id|
+  page.should have_selector("p##{detail_field_id}", :content => detail_value)
 end
 
