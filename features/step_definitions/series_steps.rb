@@ -33,3 +33,16 @@ Then /^I should not see the "([^"]*)" catalog results link$/ do |link_id|
   page.should_not have_selector("a##{link_id}")
 end
 
+Given /^an existing serie "([^"]*)" with description "([^"]*)"$/ do |serie_title, serie_description|
+  pending # express the regexp above with the code you wish you had
+end
+
+Given /^the existing capitles for the serie "([^"]*)":$/ do |serie_title, serie_capitles_table|
+  # table is a Cucumber::Ast::Table
+  pending # express the regexp above with the code you wish you had
+end
+
+Then /^I should see "([^"]*)" in the serie detail field "([^"]*)"$/ do |detail_value, detail_field|
+  pending # express the regexp above with the code you wish you had
+end
+
