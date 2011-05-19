@@ -23,3 +23,13 @@ Then /^I should see '(\d+)' series listed whose title starts with "([^"]*)"$/ do
   got_selector = have_selector("a.serie_link", :content => starting_letter, :count => series_count.to_i)
   series_count != '0' ? page.should(got_selector) : page.should_not(got_selector)
 end
+
+
+Then /^I should see the "([^"]*)" catalog results link$/ do |link_id|
+  page.should have_selector("a##{link_id}")
+end
+
+Then /^I should not see the "([^"]*)" catalog results link$/ do |link_id|
+  page.should_not have_selector("a##{link_id}")
+end
+

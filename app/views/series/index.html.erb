@@ -1,14 +1,4 @@
 <h1>Listing series</h1>
 
-<%= catalogue_filter_letters_panel %>
-<table>
-  <% @series.tabletize(3).each do |n_series_group| %>
-    <tr>
-      <% n_series_group.compact.each do |serie|%>
-        <td><%= simple_link_to_serie(serie) %></td>
-      <% end %>
-    </tr>
-  <% end %>
-</table>
-
+<%= render :partial => 'catalog', :locals => {:series => @series} %>
 <br />

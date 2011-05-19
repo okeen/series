@@ -1,0 +1,15 @@
+<div id="catalog" class="container">
+  <%= catalogue_filter_letters_panel %>
+  <table class=>
+    <% series.tabletize(3).each do |n_series_group| %>
+      <tr>
+        <% n_series_group.compact.each do |serie|%>
+          <td><%= simple_link_to_serie(serie) %></td>
+        <% end %>
+      </tr>
+    <% end %>
+  </table>
+  <%= page_entries_info(series) %>
+  <%= catalog_previous_results_link(series) unless series.current_page == 1 %>
+  <%= catalog_next_results_link(series) unless series.current_page == series.total_pages %>
+</div>

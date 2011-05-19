@@ -49,5 +49,14 @@ module ApplicationHelper
     end
   end
 
+  def catalog_next_results_link(todos)
+    url = catalog_path + "?page=#{todos.current_page.next}"
+    link_to("Next results", url, :id => "catalog_next_results")
+  end
+
+  def catalog_previous_results_link(todos)
+    url= catalog_path + "?page=#{todos.current_page-1}"
+    link_to("Previous results", url, :id => "catalog_previous_results")
+  end
 
 end
