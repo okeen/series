@@ -19,10 +19,7 @@ When /^I click on the "([^"]*)" letter catalog filter link$/ do |catalog_letter|
   end
 end
 
-Then /^I should see '(\d+)' series listed whose title starts with 'a'$/ do |arg1|
-  pending # express the regexp above with the code you wish you had
-end
-
-Then /^I should see '(\d+)' series listed whose title starts with 'b'$/ do |arg1|
-  pending # express the regexp above with the code you wish you had
+Then /^I should see '(\d+)' series listed whose title starts with "([^"]*)"$/ do |series_count, starting_letter|
+  got_selector = have_selector("a.serie_link", :content => starting_letter, :count => series_count.to_i)
+  series_count != '0' ? page.should(got_selector) : page.should_not(got_selector)
 end
