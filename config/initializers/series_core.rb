@@ -11,6 +11,6 @@
 
 class Array
   def tabletize(n)
-      in_groups_of(n).transpose.flatten
+      in_groups_of(n).transpose
   end
 end

@@ -4,14 +4,11 @@ Feature: Watch TV series catalog
   As a User
   I want to navigate through the series catalog
 
-  Before do
-    5.times do |t|
-        Serie.create(:title => "A"+t.to_s+"title", :description => "A"+t.to_s+"title")
-    end
-  end
+  Background: Existing 5 series with letter "a"
+    Given '5' existing series with the letter "a"
 
-Scenario: see the serie's index page with the catalog listed
-    Given I am on the series home page
+  Scenario: see the serie's index page with the catalog listed and just 5 series 
+    When I go to the series catalog page
     Then I should see "Series"
     And I should see '5' series listed
     

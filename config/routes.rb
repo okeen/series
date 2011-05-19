@@ -8,13 +8,14 @@ Series::Application.routes.draw do
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
 
-  # Sample of named route:
-  #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
+  match '/home' => 'series#home'
+  match '/catalog/:letter' => 'series#index', :as => :catalog_letter
+  match '/catalog' => 'series#index'
+
   # This route can be invoked with purchase_url(:id => product.id)
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
-
   # Sample resource route with options:
   #   resources :products do
   #     member do
@@ -50,7 +51,7 @@ Series::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => "series#index"
+  root :to => "series#home"
 
   # See how all your routes lay out with "rake routes"
 

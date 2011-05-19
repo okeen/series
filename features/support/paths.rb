@@ -11,7 +11,11 @@ module NavigationHelpers
     when /the home\s?page/
       '/'
     when /the series home\s?page/
-      '/series/'
+      "/home"
+    when /the series catalog\s?page/
+      "/catalog"
+    when /the series with letter "([^"]*)" catalog\s?page/
+      "/catalog/#{$1}"
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
