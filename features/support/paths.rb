@@ -17,7 +17,7 @@ module NavigationHelpers
     when /the series with letter "([^"]*)" catalog\s?page/ #filtering letter
       "/catalog/#{$1}"
     when /the "([^"]*)" serie page/ #serie title
-      "/series/#{$1}"
+      "/series/#{url_escape $1}"
 
 
     else

@@ -3,7 +3,7 @@
 
   <div id="serie_capitles_by_season_panel_contanier">
     <% 1.upto serie.seasons_count do |season| %>
-      <%= render :partial => 'serie_capitles_by_season_container',
+      <%= render :partial => 'serie_capitles_by_season_panel',
                  :locals => {:season => season, :capitles => serie.capitles.for_season(season)} %>
     <%end%>
   </div>

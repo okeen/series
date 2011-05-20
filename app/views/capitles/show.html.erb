@@ -1,4 +1,5 @@
 <div id="capitle_panel_container">
   <p><%= @serie.title %>: season <%= @capitle.season %>, capitle <%= @capitle.order %></p>
   <p><%= @capitle.title %> </p>
+<%= render :partial => 'capitle_available_video_panel', :locals => {:capitle => @capitle}  %>
 </div>

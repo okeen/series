@@ -19,5 +19,9 @@ class Serie < ActiveRecord::Base
     end
   end
 
+  # route generations by title
+  def to_param
+    title
+  end
   
 end

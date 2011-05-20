@@ -25,7 +25,8 @@ class SeriesController < ApplicationController
   # GET /series/1
   # GET /series/1.xml
   def show
-    @serie = Serie.titled(params[:id]).first
+    title = params[:id].gsub "+", " "
+    @serie = Serie.titled(title).first
 
     respond_to do |format|
       format.html # show.html.erb

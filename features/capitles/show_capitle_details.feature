@@ -12,7 +12,6 @@ Feature: See any specific capitles details
      When I go to the "Lost" serie page
      And I follow "title11"
 
-@wip
   Scenario: see basic info about the capitle "Lost 1,1" in its index page
     Then I should see "Lost"
     And I should see "season 1"
