@@ -1,4 +1,6 @@
 class CapitlesController < ApplicationController
+  before_filter :load_parent_serie
+
   # GET /capitles
   # GET /capitles.xml
   def index
@@ -13,7 +15,8 @@ class CapitlesController < ApplicationController
   # GET /capitles/1
   # GET /capitles/1.xml
   def show
-    @capitle = Capitle.find(params[:id])
+    @capitle = @serie.capitles.for_season(params[:season]).
+                where(:order => params[:capitle_order]).first
 
     respond_to do |format|
       format.html # show.html.erb
@@ -21,63 +24,11 @@ class CapitlesController < ApplicationController
     end
   end
 
-  # GET /capitles/new
-  # GET /capitles/new.xml
-  def new
-    @capitle = Capitle.new
+  private
 
-    respond_to do |format|
-      format.html # new.html.erb
-      format.xml  { render :xml => @capitle }
-    end
-  end
-
-  # GET /capitles/1/edit
-  def edit
-    @capitle = Capitle.find(params[:id])
-  end
-
-  # POST /capitles
-  # POST /capitles.xml
-  def create
-    @capitle = Capitle.new(params[:capitle])
-
-    respond_to do |format|
-      if @capitle.save
-        format.html { redirect_to(@capitle, :notice => 'Capitle was successfully created.') }
-        format.xml  { render :xml => @capitle, :status => :created, :location => @capitle }
-      else
-        format.html { render :action => "new" }
-        format.xml  { render :xml => @capitle.errors, :status => :unprocessable_entity }
-      end
-    end
-  end
-
-  # PUT /capitles/1
-  # PUT /capitles/1.xml
-  def update
-    @capitle = Capitle.find(params[:id])
-
-    respond_to do |format|
-      if @capitle.update_attributes(params[:capitle])
-        format.html { redirect_to(@capitle, :notice => 'Capitle was successfully updated.') }
-        format.xml  { head :ok }
-      else
-        format.html { render :action => "edit" }
-        format.xml  { render :xml => @capitle.errors, :status => :unprocessable_entity }
-      end
-    end
-  end
-
-  # DELETE /capitles/1
-  # DELETE /capitles/1.xml
-  def destroy
-    @capitle = Capitle.find(params[:id])
-    @capitle.destroy
-
-    respond_to do |format|
-      format.html { redirect_to(capitles_url) }
-      format.xml  { head :ok }
+  def load_parent_serie
+    if not params[:serie_title].blank?
+      @serie = Serie.titled(params[:serie_title]).first
     end
   end
 end

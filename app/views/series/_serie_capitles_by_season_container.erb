@@ -7,7 +7,7 @@
       <tr>
         <td>
           <%= link_to "#{capitle.order}- #{capitle.title}",
-                      series_capitle_path(capitle.serie, capitle),
+                      serie_capitle_path(capitle.serie.title, capitle.season, capitle.order),
                       :class => "capitle_link" %>
         </td>
       </tr>

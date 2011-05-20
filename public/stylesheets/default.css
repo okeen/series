@@ -194,3 +194,9 @@ body {
     margin: 0 12%;
     background-color: #111
 }
+
+.debug div {
+    border: 1;
+    border-color: white;
+
+}

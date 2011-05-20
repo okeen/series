@@ -45,10 +45,11 @@ Feature: Show serie details page, with its info and available capitles ordered b
 @wip
   Scenario: See the correct capitle links for "Lost"'s capitles within each container
     Then I should see the correct links for the for the following season capitles:
-        | season | capitles |
-        | 1      | 3        |
-        | 2      | 2        |
-        | 3      | 3        |
-        | 4      | 2        |
+        | season | capitles | serie |
+        | 1      | 3        | Lost  |
+        | 2      | 2        | Lost  |
+        | 3      | 3        | Lost  |
+        | 4      | 2        | Lost  |
+
 
   

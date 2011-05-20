@@ -1,5 +1,8 @@
 Series::Application.routes.draw do
 
+  match '/series/:serie_title/capitles/:season/:capitle_order' =>  "capitles#show",
+        :as => :serie_capitle
+
   resources :series do
       resources :capitles
   end

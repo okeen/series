@@ -68,15 +68,31 @@ Then /^I should see the correct titles for the for the following season capitles
   seasons_and_capitles_count_table.hashes.each do |season_data|
     season = season_data[:season]
 
-    page.should have_selector(
-      "div.season_capitles_container",
+    page.should have_selector("div.season_capitles_container",
       :content => "Temporada "+season) do |season_container|
           
-      season_data[:capitles].each do |capitle|
+      1.upto season_data[:capitles] do |capitle|
         season_container.should have_selector(
           "a.capitle_link",
           :content => "#{capitle}- title#{season}#{capitle}")
       end
     end
   end
+end
+
+Then /^I should see the correct links for the for the following season capitles:$/ do |seasons_and_capitles_count_table|
+  seasons_and_capitles_count_table.hashes.each do |season_data|
+    season = season_data[:season]
+    serie = season_data[:serie]
+    capitles = season_data[:capitles]
+
+    page.should have_selector("div.season_capitles_container",
+      :content => "Temporada "+season) do |season_container|
+        1.upto capitles.times do |capitle|
+          season_container.should have_selector(
+            "a.capitle_link",
+            :href => "/series/#{serie}/#{season}/#{capitle}")
+        end
+      end
+    end
 end
