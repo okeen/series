@@ -16,7 +16,7 @@ module NavigationHelpers
       "/catalog"
     when /the series with letter "([^"]*)" catalog\s?page/ #filtering letter
       "/catalog/#{$1}"
-    when /the "([^"]*)" serie main page/ #serie title
+    when /the "([^"]*)" serie page/ #serie title
       "/series/#{$1}"
 
 

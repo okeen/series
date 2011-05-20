@@ -11,11 +11,11 @@ class Serie < ActiveRecord::Base
   #parameterized named scopes
   class<<self
     def with_letter(letter)
-      where("LOWER(series.title) like ?","#{letter}%")
+      where("LOWER(series.title) like ?","#{letter.downcase}%")
     end
 
     def titled(title)
-      where("LOWER(series.title) = ?","#{title}")
+      where("LOWER(series.title) = ?","#{title.downcase}")
     end
   end
 

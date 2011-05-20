@@ -1,22 +1,4 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <b>Title:</b>
-  <%= @capitle.title %>
-</p>
-
-<p>
-  <b>Serie:</b>
-  <%= @capitle.serie %>
-</p>
-
-<p>
-  <b>Season:</b>
-  <%= @capitle.season %>
-</p>
-
-<p>
-  <b>Order:</b>
-  <%= @capitle.order %>
-</p>
-
+<div id="capitle_panel_container">
+  <p><%= @serie.title %>: season <%= @capitle.season %>, capitle <%= @capitle.order %></p>
+  <p><%= @capitle.title %> </p>
+</div>

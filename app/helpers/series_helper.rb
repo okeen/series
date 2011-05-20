@@ -6,10 +6,10 @@ module SeriesHelper
 
   def serie_info_panel(serie)
     content_tag :div, :id =>'serie_info_panel' do
-      "<p id='serie_title'><b>#{@serie.title}</b></p>
+      "<p id='serie_title'><b>#{serie.title}</b></p>
        <p id='serie_description'>
          <b>Description:</b>
-         #{@serie.description}
+         #{serie.description}
        </p>".html_safe+
         serie_seasons_and_capitles_info(serie)
     end
@@ -17,7 +17,7 @@ module SeriesHelper
 
   def serie_seasons_and_capitles_info(serie)
     content_tag :div, :id=>'serie_seasons_and_capitles_info' do
-      "<b>Seasons:</b> #{ @serie.seasons_count }, <b>capitles: </b>#{ @serie.capitles_count }".html_safe
+      "<b>Seasons:</b> #{ serie.seasons_count }, <b>capitles: </b>#{ serie.capitles_count }".html_safe
     end
   end
 end
