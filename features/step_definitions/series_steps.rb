@@ -48,3 +48,35 @@ Then /^I should see "([^"]*)" in the serie detail field "([^"]*)"$/ do |detail_v
   page.should have_selector("p##{detail_field_id}", :content => detail_value)
 end
 
+
+Then /^I should see '(\d+)' season containers$/ do |season_container_count|
+  page.should have_selector("div.season_capitles_container", :count =>season_container_count.to_i)
+end
+
+
+Then /^I should see the following season containers having capitles:$/ do |seasons_and_capitles_count_table|
+  seasons_and_capitles_count_table.hashes.each do |season_data|
+    page.should have_selector("div.season_capitles_container",
+      :content => "Temporada "+season_data[:season_num]) do |season_container|
+      season_container.should have_selector("a.capitle_link",
+        :count => season_data[:capitles_count].to_i)
+    end
+  end
+end
+
+Then /^I should see the correct titles for the for the following season capitles:$/ do |seasons_and_capitles_count_table|
+  seasons_and_capitles_count_table.hashes.each do |season_data|
+    season = season_data[:season]
+
+    page.should have_selector(
+      "div.season_capitles_container",
+      :content => "Temporada "+season) do |season_container|
+          
+      season_data[:capitles].each do |capitle|
+        season_container.should have_selector(
+          "a.capitle_link",
+          :content => "#{capitle}- title#{season}#{capitle}")
+      end
+    end
+  end
+end

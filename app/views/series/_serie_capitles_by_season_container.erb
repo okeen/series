@@ -1,0 +1,16 @@
+<div class="season_capitles_container">
+  <table>
+    <tr>
+      <th>Temporada <%= season %></th>
+    </tr>
+    <% capitles.each do |capitle| %>
+      <tr>
+        <td>
+          <%= link_to "#{capitle.order}- #{capitle.title}",
+                      series_capitle_path(capitle.serie, capitle),
+                      :class => "capitle_link" %>
+        </td>
+      </tr>
+    <%  end %>
+  </table>
+</div>

@@ -1,14 +1,4 @@
-<p id="serie_title">
-  <b><%= @serie.title %></b>
-</p>
-<p id="serie_description">
-  <b>Description:</b>
-  <%= @serie.description %>
-</p>
-<p id="serie_seasons_and_capitles_info">
-  <b>Seasons:</b> <%= @serie.seasons_count %>, <b>capitles: </b><%= @serie.capitles_count %>
-  
-</p>
 
+<%= render :partial => 'serie_panel', :locals => {:serie => @serie} %>
 
 <%= link_to 'Back', series_index_path %>

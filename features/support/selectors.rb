@@ -11,6 +11,10 @@ module HtmlSelectorsHelpers
     when /the page/
       "html > body"
 
+    when /the season (\d+) capitles container/
+      ["div.season_capitles_container", :content => "Temporada #{$1}"]
+
+
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #
