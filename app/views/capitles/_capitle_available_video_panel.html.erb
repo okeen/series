@@ -1,13 +1,12 @@
 <div id="capitle_available_videos_panel_container">
-  <% logger.debug capitle.videos %>
   <div id="online_video_container">
     <% capitle.videos.online.each do |online_video| %>
-      <%= link_to "View", online_video.url, :class => 'video_link' %>
+      <%= link_to "View", online_video.url, :class => 'video_link online_video' %>
     <%end%>
   </div>
   <div id="download_video_container">
     <% capitle.videos.downloads.each do |download_video| %>
-      <%= link_to "View", download_video.url, :class => 'video_link' %>
+      <%= link_to "View", download_video.url, :class => 'video_link download_video' %>
     <%end%>
 
   </div>

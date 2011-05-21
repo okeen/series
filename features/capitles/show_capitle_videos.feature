@@ -12,7 +12,6 @@ Feature: Show the different videos for a given apitle
      When I go to the "Lost" serie page
      And I follow "title11"
 
-@wip
   Scenario: see two online videos given two existing online videos
     Given the following videos for the serie "Lost", season '1', capitle '1'
         | visualization_type | url                                  |
@@ -36,7 +35,7 @@ Feature: Show the different videos for a given apitle
         | download           | http://www.megaupload.com/?d=BTZAUST7 |
         | online             | http://www.megavideo.com/?v=FGAGTGND  |
         | online             | http://www.megavideo.com/?v=H3FJIOMD  |
-    Then I should see '0' "online" videos available
+    Then I should see '2' "online" videos available
     And I should see '2' "download" videos available
 
 

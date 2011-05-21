@@ -44,7 +44,7 @@ Feature: Show serie details page, with its info and available capitles ordered b
 
   Scenario: See the correct capitle links for "Mad Men"'s capitles within each container
     Then I should see the correct links for the for the following season capitles:
-        | season | capitles | serie |
+        | season | capitles | serie    |
         | 1      | 3        | Mad Men  |
         | 2      | 2        | Mad Men  |
         | 3      | 3        | Mad Men  |

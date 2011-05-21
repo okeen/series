@@ -3,7 +3,7 @@ class Video < ActiveRecord::Base
 
   validates :visualization_type,
     :presence => true,
-    :format => {:with => /download|video/}
+    :format => {:with => /download|online/}
 
   validates :url,
     :presence => true,
