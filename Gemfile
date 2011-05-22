@@ -34,6 +34,7 @@ group :development, :test do
    gem 'capybara'
    gem 'cucumber'
    gem 'rspec-rails'
+   gem 'fastercsv'
 end
 
 gem "nifty-generators"

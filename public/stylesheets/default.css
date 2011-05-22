@@ -105,8 +105,8 @@ h2 {
 	padding: 6px 0 4px;
 }
 .content a {
-	color: #999;
-	text-decoration: underline;
+	/*color: #999;
+	text-decoration: underline;*/
 }
 .content a:hover {color: #CCC;}
 .content .descr {margin-bottom: 5px;}
@@ -189,10 +189,18 @@ h2 {
 }
 .bottom a {color: #888;}
 
-/* Adittions by Seri.es*/
+
+/*=============================*/
+    /* Adittions by Seri.es*/
 body {
-    margin: 0 12%;
+    margin: 0 10%;
     background-color: #111
+}
+
+body, p, ol, ul, td {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 18px;
 }
 
 .debug div {
@@ -200,3 +208,109 @@ body {
     border-color: white;
 
 }
+
+#catalog {
+    background: rgb(187, 187, 187);
+    border-radius: 40px 0% 0% 0%;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    border-bottom: 3px solid;
+    border-color: rgb(34, 34, 34);
+    margin: 4px;
+}
+
+.catalog_header {
+    background: rgb(34, 34, 34);    
+    border-radius: 40px 0px 0 0;    
+    height: 38px;
+    width: 100%;
+}
+
+.catalog_header_tab {
+    height: 94% ;
+    width: 25%;
+    float: right;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 40px 0 0 0;
+    text-align: right;
+    background-image: -webkit-gradient(linear, left top, left bottom,
+    from(rgb(10, 10, 10)), to(rgb(48, 48, 48)) ); /* for Chrome + Safari */
+    background-image: -moz-linear-gradient(  left,
+    rgb(10, 10, 10), rgb(48, 48, 48) ); /* for Firefox */
+}
+
+.catalog_header_tab a{
+      text-align: center;
+
+}
+.catalog_link_container {
+    width: 33% ;
+}
+.clickable_container a{
+  display: block;
+  height: 100%;
+  width: 100%;
+  border-radius: parent;
+  text-decoration: none;
+  margin: 2px;
+}
+
+#catalog_body {
+  width: 100%;
+  min-height: 558px;
+
+}
+
+#main_container {
+
+}
+
+#letter_filter_side_bar {
+  height: 100%;
+  width: 18px;
+  border-right: 3px solid;
+  border-bottom: 3px solid;
+  text-align: center;
+  border-color: rgb(34, 34, 34);
+  float: left;
+  
+}
+#catalog_series_list_container{
+  height: 100%;
+  margin: 0 20px 10px 50px;
+  
+}
+
+.letter_filter_letter_container {
+    border-bottom: 2px solid;
+    border-color: black;
+}
+
+.season_capitles_container {
+  border-radius: 15px 15px 5px 5px;
+  border: 3px solid;
+  border-color: rgb(34, 34, 34);
+  width: 30%;
+  float: left;
+  margin: 8px;
+  margin-bottom: 20px;
+}
+.season_capitles_container_header {
+  border-radius: 5px 5px 0px 0px;
+  background-color: rgb(34, 34, 34);
+  text-align: center;
+  padding-bottom: 5px;
+  height: 15%;
+  width: 100% 
+}
+.season_capitles_container_body {
+  padding: 10px 10px 10px 10px;
+  color: black;
+  background-color: rgb(187, 187, 187);
+  height: 270px;
+  overflow: auto;
+  overflow-x: hidden;
+
+}
+

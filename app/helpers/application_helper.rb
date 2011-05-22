@@ -8,7 +8,7 @@ module ApplicationHelper
   def nav_menu
     content_tag :div, :id=>'nav', :class=>'nav' do
       link_to( "Indice", series_index_path)+
-      clearer
+        clearer
     end
   end
 
@@ -21,8 +21,8 @@ module ApplicationHelper
   def footer_bottom
     content_tag :div, :id=>'footer_bottom', :class=>'bottom' do
       ('<span class="left"><a href="http://seri.es/">seri.es</a>. Valid <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> and <a href="http://validator.w3.org/check?uri=referer">XHTML</a>.</span>'+
-      '<span class="right">Template design by <a href="http://templates.arcsin.se">Arcsin</a></span>'+
-      clearer).html_safe
+          '<span class="right">Template design by <a href="http://templates.arcsin.se">Arcsin</a></span>'+
+          clearer).html_safe
     end
   end
   
@@ -38,17 +38,31 @@ module ApplicationHelper
     end
   end
 
-  def catalogue_filter_letters_panel
-    content_tag :div, :id=>'catalogue_filter_letters' do
-      content_tag :fieldset do
-        content_tag(:legend, "Catalogue letters")+
-        ('A'..'Z').to_a.collect { |letter|
-            link_to letter, catalog_letter_path(letter.downcase)
-        }.join(" ").html_safe
-      end
+  def catalog_header
+    content_tag :div, :class=> 'catalog_header' do
+        (
+        content_tag :div, :class => 'catalog_header_tab clickable_container' do
+          link_to "Favourites", home_path
+        end
+      ) +
+        (
+        content_tag :div, :class => 'catalog_header_tab clickable_container' do
+          link_to "Latests", home_path
+        end
+      )
     end
   end
 
+  def letter_filter_links_sidebar
+    content_tag :div, :id=>'catalogue_filter_letters' do
+      ('A'..'Z').to_a.collect { |letter|
+        content_tag :div, :class => 'letter_filter_letter_container clickable_container' do
+          link_to letter, catalog_letter_path(letter.downcase)
+        end
+      }.join(" ").html_safe
+    end
+  end
+  
   def catalog_next_results_link(todos)
     url = catalog_path + "?page=#{todos.current_page.next}"
     link_to("Next results", url, :id => "catalog_next_results")

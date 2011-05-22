@@ -60,6 +60,7 @@ GEM
       abstract (>= 1.0.0)
     faker (0.9.5)
       i18n (~> 0.4)
+    fastercsv (1.5.4)
     ffi (1.0.8)
     gherkin (2.3.8)
       json (>= 1.4.6)
@@ -142,6 +143,7 @@ DEPENDENCIES
   cucumber-rails
   database_cleaner
   faker
+  fastercsv
   launchy
   machinist
   nifty-generators

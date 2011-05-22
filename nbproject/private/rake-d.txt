@@ -75,6 +75,7 @@ rails\:update\:scripts=
 rails_env=
 routes=Print out all defined routes in match order, with names. Target specific controller with CONTROLLER=x.
 secret=Generate a cryptographically secure secret key (this is typically used to generate a secret for cookie sessions).
+series\:fill_db_with_videos=
 spec=Run all specs in spec directory (excluding plugin specs)
 spec\:controllers=Run the code examples in spec/controllers
 spec\:helpers=Run the code examples in spec/helpers

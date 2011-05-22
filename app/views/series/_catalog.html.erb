@@ -1,17 +1,29 @@
-<div id="catalog" class="container">
-  <%= catalogue_filter_letters_panel %>
-  <table class=>
-    <% series.tabletize(3).each do |n_series_group| %>
-      <tr>
-        <% n_series_group.compact.each do |serie|%>
-          <td><%= simple_link_to_serie(serie) %></td>
+<div id="catalog" >
+
+  <%= catalog_header %>
+  <div id="catalog_body">
+    <div id="letter_filter_side_bar">
+      <%=  letter_filter_links_sidebar %>
+    </div>
+    <div id="catalog_series_list_container">
+      <table class="no">
+        <% series.in_groups_of(3).each do |n_series_group| %>
+          <tr>
+            <% n_series_group.compact.each do |serie|%>
+              <td class="catalog_link_container clickable_container"><%= simple_link_to_serie(serie) %></td>
+            <% end %>
+          </tr>
         <% end %>
-      </tr>
-    <% end %>
-  </table>
-  <%if params[:letter].blank?%>
-    <%= page_entries_info(series) %>
-    <%= catalog_previous_results_link(series) unless series.current_page == 1 %>
-    <%= catalog_next_results_link(series) unless series.current_page == series.total_pages %>
-  <%end%>
+      </table>
+
+      <%if params[:letter].blank?%>
+        <%= page_entries_info(series) %>
+        <%= catalog_previous_results_link(series) unless series.current_page == 1 %>
+        <%= catalog_next_results_link(series) unless series.current_page == series.total_pages %>
+      <%end%>
+    </div>
+
+  </div>
+
 </div>
+

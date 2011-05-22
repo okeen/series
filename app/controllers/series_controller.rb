@@ -25,7 +25,7 @@ class SeriesController < ApplicationController
   # GET /series/1
   # GET /series/1.xml
   def show
-    title = params[:id].gsub "+", " "
+    title = CGI.unescape(params[:id])
     @serie = Serie.titled(title).first
 
     respond_to do |format|

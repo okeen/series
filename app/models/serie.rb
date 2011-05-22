@@ -4,6 +4,8 @@ class Serie < ActiveRecord::Base
   
   validates :title , :presence => true, :uniqueness => true
 
+  before_create :remove_non_utf8_chars
+
   #will_paginate config
   cattr_reader :per_page
   @@per_page = 12
@@ -23,5 +25,9 @@ class Serie < ActiveRecord::Base
   def to_param
     title
   end
-  
+
+  private
+  def remove_non_utf8_chars
+    title= attributes[:title].unpack("U*").pack("U*") unless attributes[:title].blank?
+  end
 end
