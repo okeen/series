@@ -209,6 +209,9 @@ body, p, ol, ul, td {
 
 }
 
+.main { 
+  overflow:auto;
+}
 #catalog {
     background: rgb(187, 187, 187);
     border-radius: 40px 0% 0% 0%;
@@ -253,7 +256,7 @@ body, p, ol, ul, td {
   width: 100%;
   border-radius: parent;
   text-decoration: none;
-  margin: 2px;
+  vertical-align: middle;
 }
 
 #catalog_body {
@@ -268,7 +271,7 @@ body, p, ol, ul, td {
 
 #letter_filter_side_bar {
   height: 100%;
-  width: 18px;
+  width: 20px;
   border-right: 3px solid;
   border-bottom: 3px solid;
   text-align: center;
@@ -278,7 +281,8 @@ body, p, ol, ul, td {
 }
 #catalog_series_list_container{
   height: 100%;
-  margin: 0 20px 10px 50px;
+  margin-left: 20px;
+ /* margin: 0 20px 10px 50px;*/
   
 }
 
@@ -309,8 +313,20 @@ body, p, ol, ul, td {
   color: black;
   background-color: rgb(187, 187, 187);
   height: 270px;
-  overflow: auto hidden;
+  overflow: auto;
   overflow-x: hidden;
 
 }
-
+.catalog_link_container_row {
+  width: 100%;
+  padding-left: 20px;
+  height: 30px;
+  
+}
+.catalog_link_container {
+  width: 33%;
+  height: 100%;
+  float: left;
+  border-bottom: 1px solid;
+  border-color: rgb(34, 34, 34);
+}

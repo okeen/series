@@ -6,15 +6,15 @@
       <%=  letter_filter_links_sidebar %>
     </div>
     <div id="catalog_series_list_container">
-      <table class="no">
-        <% series.in_groups_of(3).each do |n_series_group| %>
-          <tr>
-            <% n_series_group.compact.each do |serie|%>
-              <td class="catalog_link_container clickable_container"><%= simple_link_to_serie(serie) %></td>
-            <% end %>
-          </tr>
-        <% end %>
-      </table>
+      <% series.in_groups_of(3).each do |n_series_group| %>
+        <div class="catalog_link_container_row">
+          <% n_series_group.compact.each do |serie|%>
+            <div class="catalog_link_container clickable_container">
+              <%= simple_link_to_serie(serie) %>
+            </div>
+          <% end %>
+        </div>
+      <% end %>
 
       <%if params[:letter].blank?%>
         <%= page_entries_info(series) %>
