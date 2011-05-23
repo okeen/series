@@ -233,7 +233,7 @@ body, p, ol, ul, td {
     height: 94% ;
     width: 25%;
     float: right;
-    border: 1px solid;
+    border: 0px solid;
     border-color: white;
     border-radius: 40px 0 0 0;
     text-align: right;
@@ -241,11 +241,22 @@ body, p, ol, ul, td {
     from(rgb(10, 10, 10)), to(rgb(48, 48, 48)) ); /* for Chrome + Safari */
     background-image: -moz-linear-gradient(  left,
     rgb(10, 10, 10), rgb(48, 48, 48) ); /* for Firefox */
+    position: relative;
+    right: -30px;
+}
+
+.last_tab{
+  right: 0;
 }
 
 .catalog_header_tab a{
-      text-align: center;
-
+    text-align: center;
+    border-radius: 40px 0 0 0;
+    
+}
+.catalog_link_container a:hover {
+  border-radius: 4px;
+  background-color: rgb(157, 157, 157);
 }
 .catalog_link_container {
     width: 33% ;
@@ -282,6 +293,7 @@ body, p, ol, ul, td {
 #catalog_series_list_container{
   height: 100%;
   margin-left: 20px;
+  padding-top: 2px;
  /* margin: 0 20px 10px 50px;*/
   
 }
@@ -290,6 +302,11 @@ body, p, ol, ul, td {
     border-bottom: 2px solid;
     border-color: black;
 }
+
+.letter_filter_letter_container a:hover {
+  background-color: rgb(137, 137, 137);
+}
+
 
 .season_capitles_container {
   border-radius: 15px 15px 5px 5px;
@@ -318,15 +335,57 @@ body, p, ol, ul, td {
 
 }
 .catalog_link_container_row {
-  width: 100%;
-  padding-left: 20px;
+  padding-left: 6px;
+  padding-right: 3px;
   height: 30px;
-  
+   border-bottom: 0px solid;
+  border-color: rgb(34, 34, 34);
 }
 .catalog_link_container {
-  width: 33%;
   height: 100%;
   float: left;
-  border-bottom: 1px solid;
-  border-color: rgb(34, 34, 34);
+  border-radius: 4px;
+  background-color: rgb(207, 207, 207);
+  margin: 1px;
+}
+
+.catalog_link_container a:hover {
+  border-radius: 4px;
+  background-color: rgb(157, 157, 157);
+}
+
+.z-index-0 {
+  z-index: 0;
+}
+.z-index-1 {
+  z-index: 1;
+}
+
+.z-index-2 {
+  z-index: 2;
+}
+
+#capitle_content_container {
+  margin: 10px;
+  border-radius: 15px 15px 3px 3px;
+  background-color: rgb(187, 187, 187);
+}
+
+#capitle_content_header {
+  height: 25px;
+  width: 100%;
+  background-color: rgb(48, 48, 48);
+  
+}
+.capitle_content_header_tab {
+  width: 25%;
+  float: left;
+  height: 100%;
+  background: rgb(25, 25, 25);
+  border-radius: 13px 13px 0px 0px;
+}
+
+.capitle_content_header_tab a {
+  color: white;
+  text-align: center;
 }

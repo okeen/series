@@ -41,12 +41,12 @@ module ApplicationHelper
   def catalog_header
     content_tag :div, :class=> 'catalog_header' do
         (
-        content_tag :div, :class => 'catalog_header_tab clickable_container' do
+        content_tag :div, :class => 'catalog_header_tab clickable_container z-index-2 last_tab' do
           link_to "Favourites", home_path
         end
       ) +
         (
-        content_tag :div, :class => 'catalog_header_tab clickable_container' do
+        content_tag :div, :class => 'catalog_header_tab clickable_container z-index-1'do
           link_to "Latests", home_path
         end
       )
