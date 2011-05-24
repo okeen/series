@@ -1,0 +1,1414 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+X-WR-CALDESC:Calendar for TV from On-My.tv
+X-WR-CALNAME:TV Shows
+PRODID:-//Calendar For
+  TV//abcf55715c63ce3276c0715e96ce0f24//usr_eneko.taberna@gmail.c
+  om
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART:20110525T000000Z
+DTEND:20110525T010000Z
+SUMMARY:American Idol 10x38 - Finalists Compete
+DESCRIPTION:
+UID:AMERICANIDOL_10_38
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: American Idol Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110526T000000Z
+DTEND:20110526T010000Z
+SUMMARY:American Idol 10x39 - Winner Announced
+DESCRIPTION:
+UID:AMERICANIDOL_10_39
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: American Idol Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110523T010000Z
+DTEND:20110523T030000Z
+SUMMARY:The Apprentice 11x12 - 7UP Final: Sweet Victory
+DESCRIPTION:Live from New York City\, it's the season finale of The
+  Celebrity Apprentice. As the task continues\, the finalists
+  rush to prepare for their 7UP Retro events. One finalist's team
+  is frustrated by their leader's lack of direction. The other
+  finalist introduces Def Leppard before the band is ready to
+  appear\, creating an awkward break in their event. The next
+  day\, the two finalists\, backed by their Celebrity helpers\,
+  face off in the boardroom. In a live finish\, the celebrities
+  take the stage and Donald Trump crowns his new Celebrity
+  Apprentice.
+UID:APPRENTICE_11_12
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: The Apprentice Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110523T010000Z
+DTEND:20110523T020000Z
+SUMMARY:Army Wives 5x11 - Drop Zone
+DESCRIPTION:Claudia Joy is happy to have Emmalin and Michael back under the
+  same roof\, but it's clear to Claudia Joy that they both have
+  something else on their minds. An incident on post reminds
+  Denise how much she misses being a nurse. Pamela is worried
+  when Boone is assigned to evaluate her job performance.
+UID:ARMYWIVES_5_11
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Army Wives Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110530T010000Z
+DTEND:20110530T020000Z
+SUMMARY:Army Wives 5x12 - Fire Fight
+DESCRIPTION:
+UID:ARMYWIVES_5_12
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Army Wives Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110606T010000Z
+DTEND:20110606T020000Z
+SUMMARY:Army Wives 5x13 - Farewell To Arms
+DESCRIPTION:
+UID:ARMYWIVES_5_13
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Army Wives Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110529T140000Z
+DTEND:20110529T143000Z
+SUMMARY:Avengers: Earth's Mightiest Heroes 1x22 - Ultron-5
+DESCRIPTION:
+UID:_1_22
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Avengers: Earth's Mightiest Heroes Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110605T140000Z
+DTEND:20110605T143000Z
+SUMMARY:Avengers: Earth's Mightiest Heroes 1x23 - The Ultron Imperitive
+DESCRIPTION:
+UID:_1_23
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Avengers: Earth's Mightiest Heroes Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110527T223000Z
+DTEND:20110527T230000Z
+SUMMARY:Batman - The Brave and the Bold 3x7 - The Scorn of Star
+  Sapphire!
+DESCRIPTION:Batman teams up with Green Lantern Hal Jordan to face the evil
+  Star Sapphire!
+UID:BATMANTHEBRAVEANDTHEBOLD_3_7
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Batman - The Brave and the Bold Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110603T223000Z
+DTEND:20110603T230000Z
+SUMMARY:Batman - The Brave and the Bold 3x8 - Time Out for Vengeance!
+DESCRIPTION:The JLI travel to the past to try and stop a force that wants
+  to wipe out all the incarnations of Batman throughout time.
+UID:BATMANTHEBRAVEANDTHEBOLD_3_8
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Batman - The Brave and the Bold Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110525T000000Z
+DTEND:20110525T020000Z
+SUMMARY:The Biggest Loser (US) 11x21 - Finale
+DESCRIPTION:In this must-see\, exciting live finale\, the contestants from
+  this season return for a special reunion and a chance to weigh
+  in one last time - and show America how much weight they've all
+  lost since beginning their weight-loss journeys. There are four
+  contestants left\, but America has voted on the two that fell
+  below the yellow line in last week's episode to choose who will
+  be the third finalist in the game. After America's vote is
+  revealed and the third finalist is announced\, the eliminated
+  player will then weigh in with the other eliminated contestants
+  to compete for the 0\,000 "at home" prize. Then it's the
+  moment viewers have been waiting for\, when one of the three
+  finalists will be named this season's "Biggest Loser" and win
+  the coveted grand prize of 0\,000!
+UID:BIGGESTLOSER_11_21
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: The Biggest Loser (US) Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110523T003000Z
+DTEND:20110523T010000Z
+SUMMARY:Bob's Burgers 1x13 - Torpedo
+DESCRIPTION:Bob's hero\, a washed-up baseball player named Torpedo Jones\,
+  starts pitching for the local minor league team. Torpedo
+  befriends Bob\, but the dark underbelly of minor league
+  baseball threatens to corrupt the Belchers.
+UID:_1_13
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Bob's Burgers Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110523T020000Z
+DTEND:20110523T030000Z
+SUMMARY:The Borgias 1x9 - Nessuno (Nobody)
+DESCRIPTION:Abandoned by even his cardinals\, Alexander meets King Charles
+  with humility and saves his throne\, even eliciting a
+  confession from the conqueror he crowns as the new "King of
+  France and Naples\;" Della Rovere despairs as Charles abandons
+  him\; Lucrezia safely gives birth to a son in a convent as the
+  Borgias secure an annulment of her marriage and plot revenge on
+  their enemies.
+UID:_1_9
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: The Borgias Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110523T020000Z
+DTEND:20110523T030000Z
+SUMMARY:Breakout Kings 1x12 - There are Rules
+DESCRIPTION:A shocking scene at a prison erupts when an 18 wheeler crashes
+  into the prison wall and an armored car escapes from the back
+  of the truck\, with several convicted felons hiding inside. Our
+  rag-tag team is quick to begin the hunt for the fugitives and
+  they learn the escapees are being lead by Ronald Barnes\, a
+  Madoff-like man who is hated by all. The follow Barnes’ trail
+  and eventually realize that his plans of helping his fellow
+  cons reach freedom along with him were all a ruse to distract
+  the authorities from tracking down Barnes himself. Barnes will
+  kill anyone that gets in his way and the Breakout Kings must
+  outsmart him before it’s too late.
+UID:_1_12
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Breakout Kings Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110530T020000Z
+DTEND:20110530T030000Z
+SUMMARY:Breakout Kings 1x13 - Where in the World is Carmen Vega
+DESCRIPTION:Carmen Vega\, the ruthless queen pin of a drug cartel\, pulls
+  off a violent and deadly escape while attending the funeral of
+  her slain son. Her plan\, get the family business back in order
+  and hand over the keys to the kingdom to the heir apparent\,
+  her son Cesar. Carmen will stop at nothing\, including killing
+  a member of her team and even her own family\, to put Cesar on
+  the throne. The Breakout Kings seem to be one step behind
+  Carmen at every turn and they smell a rat. Is there an
+  informant within the team? Not only do the Breakout Kings need
+  to catch Carmen to their month off\, they also need Carmen to
+  give up the location of where Shea’s girlfriend is being held
+  hostage to save her life. Find the rat\, catch Carmen and save
+  a loved one\, the Breakout Kings have their work cut out for
+  them. In the end\, they realize they really are a team and
+  there’s no going back.
+UID:_1_13
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Breakout Kings Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110604T020000Z
+DTEND:20110604T030000Z
+SUMMARY:Camelot 1x9 - The Battle of Bardon Pass
+DESCRIPTION:
+UID:_1_9
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Camelot Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110524T010000Z
+DTEND:20110524T020000Z
+SUMMARY:The Chicago Code 1x13 - Mike Royko's Revenge
+DESCRIPTION:It's the moment of truth for the city of Chicago and the
+  Chicago Police Department. FBI Special Agent Cuyler returns to
+  pay Superintendent Colvin a visit\, and Jarek stops at nothing
+  to address family issues that have haunted him for years. When
+  Jarek and Teresa are forced to put everything on the line\, the
+  stakes are raised as their case against the kingpin of
+  corruption in Chicago comes to a climactic conclusion.
+UID:_1_13
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: The Chicago Code Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110601T033000Z
+DTEND:20110601T040000Z
+SUMMARY:The Colbert Report 7x69 - James B. Stewart
+DESCRIPTION:
+UID:COLBERTREPORT_7_69
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: The Colbert Report Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110602T033000Z
+DTEND:20110602T040000Z
+SUMMARY:The Colbert Report 7x70 - Robert Kennedy Jr.
+DESCRIPTION:
+UID:COLBERTREPORT_7_70
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: The Colbert Report Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110603T033000Z
+DTEND:20110603T040000Z
+SUMMARY:The Colbert Report 7x71 - Salman Khan
+DESCRIPTION:
+UID:COLBERTREPORT_7_71
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: The Colbert Report Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110526T013000Z
+DTEND:20110526T020000Z
+SUMMARY:Cougar Town 2x21 - Something Good Coming (1)
+DESCRIPTION:When Travis abruptly moves to Hawaii\, the gang go after him
+  and decide to spend their vacation there too. As Jules
+  struggles with Travis' choice\, Grayson tells her he's keen on
+  having kids. Meanwhile\, Bobby acts as Ellie and Andy's
+  vacation surrogate\, and Laurie hatches a plan to lure Travis
+  back home.
+UID:COUGARTOWN_2_21
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Cougar Town Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110526T020000Z
+DTEND:20110526T023000Z
+SUMMARY:Cougar Town 2x22 - Something Good Coming (2)
+DESCRIPTION:
+UID:COUGARTOWN_2_22
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Cougar Town Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110526T020000Z
+DTEND:20110526T030000Z
+SUMMARY:Criminal Minds: Suspect Behavior 1x13 - Death by a Thousand
+  Cuts
+DESCRIPTION:Cooper and the red cell team track a serial killer who is
+  randomly shooting people in crowded areas. Also\, Beth's life
+  is put in peril when she and Prophet go undercover.
+UID:_1_13
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Criminal Minds: Suspect Behavior Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110601T030000Z
+DTEND:20110601T033000Z
+SUMMARY:The Daily Show 16x69 - Jimmy Fallon
+DESCRIPTION:
+UID:DAILYSHOW_16_69
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: The Daily Show Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110602T030000Z
+DTEND:20110602T033000Z
+SUMMARY:The Daily Show 16x70 - Bill Moyers
+DESCRIPTION:
+UID:DAILYSHOW_16_70
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: The Daily Show Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110603T030000Z
+DTEND:20110603T033000Z
+SUMMARY:The Daily Show 16x71 - Tim Tebow
+DESCRIPTION:
+UID:DAILYSHOW_16_71
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: The Daily Show Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110524T000000Z
+DTEND:20110524T020000Z
+SUMMARY:Dancing with the Stars 12x19 - Season 12\, Episode 19
+DESCRIPTION:
+UID:_12_19
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Dancing with the Stars Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110525T000000Z
+DTEND:20110525T020000Z
+SUMMARY:Dancing with the Stars 12x20 - The Winner is Announced
+DESCRIPTION:
+UID:_12_20
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Dancing with the Stars Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110525T010000Z
+DTEND:20110525T020000Z
+SUMMARY:Deadliest Catch 7x7 - Thick as Thieves
+DESCRIPTION:
+UID:DEADLIESTCATCH_7_7
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Deadliest Catch Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110601T010000Z
+DTEND:20110601T020000Z
+SUMMARY:Deadliest Catch 7x8 - Graduation Day
+DESCRIPTION:
+UID:DEADLIESTCATCH_7_8
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Deadliest Catch Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110528T170000Z
+DTEND:20110528T175000Z
+SUMMARY:Doctor Who 6x6 - The Almost People (2)
+DESCRIPTION:As the solar storm rages\, Jennifer\, a Ganger driven mad by
+  the memories of being "decommissioned"\, is seeking revenge\,
+  as the time-travelling drama continues.She can remember every
+  excruciating second of every "execution" and is determined that
+  the humans will pay. And she isn't just talking war\; she's
+  talking revolution. As the crumbling factory fills with toxic
+  fumes and drips lethal acid\, the "Originals" wait desperately
+  for the shuttle from the Mainland to rescue them. But Jennifer
+  has other ideas. Can the Doctor convince the terrified factory
+  workers to embrace their own humanity and work together with
+  their Gangers to overcome a monster of their own making?
+UID:DOCTORWHO_2005_6_6
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Doctor Who Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110604T170000Z
+DTEND:20110604T175000Z
+SUMMARY:Doctor Who 6x7 - A Good Man Goes to War (1)
+DESCRIPTION:
+UID:DOCTORWHO_2005_6_7
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Doctor Who Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110525T010000Z
+DTEND:20110525T020000Z
+SUMMARY:Dual Survival 2x6 - Out Of Africa
+DESCRIPTION:
+UID:_2_6
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Dual Survival Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110528T010000Z
+DTEND:20110528T020000Z
+SUMMARY:Dual Survival 2x7 - Out of the Clouds
+DESCRIPTION:
+UID:_2_7
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Dual Survival Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110604T010000Z
+DTEND:20110604T020000Z
+SUMMARY:Dual Survival 2x8 - Adrift
+DESCRIPTION:
+UID:_2_8
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Dual Survival Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110524T020000Z
+DTEND:20110524T030000Z
+SUMMARY:Endgame 1x11 - Episode #1.11
+DESCRIPTION:
+UID:_1_11
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Endgame Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110531T020000Z
+DTEND:20110531T030000Z
+SUMMARY:Endgame 1x12 - Polar Opposites
+DESCRIPTION:
+UID:_1_12
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Endgame Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110524T010000Z
+DTEND:20110524T020000Z
+SUMMARY:The Event 1x22 - Arrival
+DESCRIPTION:The White House is gripped by a power struggle of historic
+  proportions\, pitting Martinez and Chief of Staff Peel against
+  Jarvis and his secret ally\, Sophia. Elsewhere\, Sean\, Vicky\,
+  Sterling\, and Simon race to stop the dispersion points for the
+  virus. Meanwhile\, Leila fights for her life. But it all may be
+  too late -- as the portal begins to open\, sending tremors
+  across the globe.
+UID:EVENT_1_22
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: The Event Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110523T010000Z
+DTEND:20110523T013000Z
+SUMMARY:Family Guy 9x18 - It's a Trap!
+DESCRIPTION:After a third power blackout\, the family (albeit reluctantly)
+  tells the story of “Star Wars: Return of the Jedi”.
+UID:FAMILYGUY_9_18
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Family Guy Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110523T010000Z
+DTEND:20110523T013000Z
+SUMMARY:Family Guy 9x19 - It's a Trap!
+DESCRIPTION:After a third power blackout\, the family (albeit reluctantly)
+  tells the story of “Star Wars: Return of the Jedi”.
+UID:FAMILYGUY_9_19
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Family Guy Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110523T010000Z
+DTEND:20110523T013000Z
+SUMMARY:Family Guy 9x20 - It's a Trap!
+DESCRIPTION:After a third power blackout\, the family (albeit reluctantly)
+  tells the story of “Star Wars: Return of the Jedi”.
+UID:FAMILYGUY_9_20
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Family Guy Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110523T010000Z
+DTEND:20110523T020000Z
+SUMMARY:Game of Thrones 1x6 - A Golden Crown
+DESCRIPTION:Reinstated as the Hand\, Ned sits for the King while Robert is
+  on a hunt\, and issues a decree that could have long-term
+  consequences throughout the Seven Kingdoms. At the Eyrie\,
+  Tyrion confesses to his “crimes\,” and demands that Lysa
+  give him a trial by combat. Joffrey apologizes to Sansa\;
+  Viserys receives his final payment for Daenerys from Drogo.
+UID:_1_6
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Game of Thrones Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110530T010000Z
+DTEND:20110530T020000Z
+SUMMARY:Game of Thrones 1x7 - You Win or You Die
+DESCRIPTION:Explaining that the future of the Lannisters is at stake\,
+  Tywin presses Jaime to “be the man you were meant to be” as
+  they prepare for battle. Ned confronts Cersei about the secrets
+  that killed Jon Arryn. With the fate of the missing Benjen very
+  much on his mind\, Jon Snow takes his Night’s Watch vows\,
+  though not with the assignment he coveted. After Ser Jorah
+  saves Daenerys from treachery\, an enraged Drogo vows to lead
+  the Dothraki where they’ve never gone before. An injured
+  Robert takes pains to ensure an orderly transition at King’s
+  Landing.
+UID:_1_7
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Game of Thrones Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110606T010000Z
+DTEND:20110606T020000Z
+SUMMARY:Game of Thrones 1x8 - The Pointy End
+DESCRIPTION:
+UID:_1_8
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Game of Thrones Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110525T000000Z
+DTEND:20110525T010000Z
+SUMMARY:Glee 2x22 - New York
+DESCRIPTION:The kids of New Directions travel from Lima to New York City to
+  compete in Nationals. While in the Big Apple\, they take in all
+  of the sights from Times Square to Broadway to Central Park.
+UID:GLEE_2_22
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Glee Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110606T020000Z
+DTEND:20110606T030000Z
+SUMMARY:The Glades 2x1 - Family Matters
+DESCRIPTION:
+UID:GLADES_2_1
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: The Glades Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110524T020000Z
+DTEND:20110524T023000Z
+SUMMARY:The Hard Times of RJ Berger 2x10 - Sex. Teen. Candles.
+DESCRIPTION:RJ throws a "Max Bash" to get back at Max Owens for ruining his
+  birthday\, and things quickly get out of hand when Max and his
+  jock friends show up at the party.
+UID:_2_10
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: The Hard Times of RJ Berger Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110531T020000Z
+DTEND:20110531T023000Z
+SUMMARY:The Hard Times of RJ Berger 2x11 - Steamy Surprise
+DESCRIPTION:RJ and Jenny get nominated for Mr. and Ms. Pinkerton right as
+  he's ready to take his relationship with Amy to the next level.
+UID:_2_11
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: The Hard Times of RJ Berger Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110526T020000Z
+DTEND:20110526T023000Z
+SUMMARY:Happy Endings 1x12 - The Shershow Redemption
+DESCRIPTION:A sudden invitation to the wedding of old friend Shershow\, a
+  notorious slacker\, brings unexpected consequences\; Brad and
+  Jane discover something shocking about their own marital
+  status\; a depressed Penny convinces Derrick to pose as her
+  fiancé\; and Shershow's fiancée fears that Alex is the
+  "wedding jinx".
+UID:_1_12
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Happy Endings Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110524T000000Z
+DTEND:20110524T010000Z
+SUMMARY:House 7x23 - Moving On
+DESCRIPTION:Well-known performance artist Afsoun Hamidi is admitted to the
+  hospital\, but when the team learns that her symptoms may have
+  been self-inflicted as part of a documentary for her latest
+  performance piece\, they begin to question whether treatments
+  are necessary and if they are unwittingly participating in the
+  creation of a piece of her art. Meanwhile\, a situation prompts
+  House to do something very unexpected\, a move that could
+  change his relationship with Cuddy and Wilson permanently.
+UID:HOUSE_7_23
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: House Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110526T020000Z
+DTEND:20110526T023000Z
+SUMMARY:House of Payne 7x17 - So Hard to Say Goodbye
+DESCRIPTION:
+UID:TYLERPERRYSHOUSEOFPAYNE_7_17
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: House of Payne Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110526T023000Z
+DTEND:20110526T030000Z
+SUMMARY:House of Payne 7x18 - Payneful Support
+DESCRIPTION:
+UID:TYLERPERRYSHOUSEOFPAYNE_7_18
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: House of Payne Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110526T213000Z
+DTEND:20110526T220000Z
+SUMMARY:Ideal 7x1 - The Police
+DESCRIPTION:Moz makes plans to try and win back Jenny. After he discovers
+  though that she has joined the police force\, his plans end up
+  being thrown into disarray.
+UID:IDEAL_7_1
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Ideal Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110602T213000Z
+DTEND:20110602T220000Z
+SUMMARY:Ideal 7x2 - The Debtors
+DESCRIPTION:Having no money\, Moz decides to call in his debts. All of his
+  friends though seem reluctant to pay him back. Jess ends up
+  falling under the spell of masked hit man Cartoon Head.
+UID:IDEAL_7_2
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Ideal Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110523T020000Z
+DTEND:20110523T030000Z
+SUMMARY:In Plain Sight 4x4 - Meet the Shannons
+DESCRIPTION:Mary helps a Miss Congeniality teenage pageant queen cope when
+  she suddenly realizes that she's spent her entire life in the
+  witness protection program — but didn't know it.
+UID:INPLAINSIGHT_4_4
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: In Plain Sight Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110523T020000Z
+DTEND:20110523T030000Z
+SUMMARY:The Killing 1x9 - Undertow
+DESCRIPTION:Sarah and Holder regroup\, Richmond goes up in the polls\, and
+  Stan faces consequences for his ill-thought out actions\,
+  leaving Mitch alone to keep the family afloat.\n
+UID:_1_9
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: The Killing Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110530T020000Z
+DTEND:20110530T030000Z
+SUMMARY:The Killing 1x10 - I'll Let You When I Get There
+DESCRIPTION:
+UID:_1_10
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: The Killing Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110606T020000Z
+DTEND:20110606T030000Z
+SUMMARY:The Killing 1x11 - Missing
+DESCRIPTION:
+UID:_1_11
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: The Killing Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110523T010000Z
+DTEND:20110523T020000Z
+SUMMARY:Law & Order: CI 10x4 - The Last Street in Manhattan
+DESCRIPTION:The murder of a Wall Street CEO takes Goren and Eames on an
+  investigative trail that leads into the world of high-end
+  Manhattan match-making\, where wealthy men are paired with
+  beautiful\, accomplished women.
+UID:LAWANDORDERCRIMINALINTENT_10_4
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Law & Order: CI Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110606T010000Z
+DTEND:20110606T020000Z
+SUMMARY:Law & Order: CI 10x5 - Trophy Wine
+DESCRIPTION:A wine collector named Mason Kent and a premiere wine
+  sommelier\, also known as "The Nose" come under suspicion when
+  a high-end wine connoisseur -- who has been counterfeiting the
+  product -- dies of a heart attack while locked in his cellar.
+UID:LAWANDORDERCRIMINALINTENT_10_5
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Law & Order: CI Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110524T020000Z
+DTEND:20110524T030000Z
+SUMMARY:Law & Order: Los Angeles 1x16 - Big Rock Mesa
+DESCRIPTION:When a destructive wildfire suddenly rips through the hills of
+  Malibu\, arson is immediately suspected. Once the blaze is
+  contained\, the detectives soon realize that a second fire was
+  intended to cover up a gruesome crime. Meanwhile\, DDA’s
+  Dekker and Rubirosa stumble upon some information crucial to
+  the case.
+UID:LAO_LA_1_16
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Law & Order: Los Angeles Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110526T020000Z
+DTEND:20110526T030000Z
+SUMMARY:Law & Order: Los Angeles 1x17 - Angel's Knoll
+DESCRIPTION:Following a heated argument with his cousin\, casino worker
+  George Patrick is found brutally murdered in his hotel bathtub.
+  However\, after talking with the victim’s girlfriend\, they
+  discover that more than one crime has been committed.
+  Meanwhile\, DDA’s Dekker and Rubirosa reluctantly strike a
+  deal with those involved in order to convict the real
+  mastermind.
+UID:LAO_LA_1_17
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Law & Order: Los Angeles Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110531T020000Z
+DTEND:20110531T030000Z
+SUMMARY:Law & Order: Los Angeles 1x18 - Van Nuys
+DESCRIPTION:A birthday party turns into a horrific scene after all of the
+  guests are beaten to death by some uninvited visitors. With
+  several clues left behind\, the detectives are led to believe
+  it was drug related. However\, when they learn one of the
+  guests escaped it leads them to a shocking discovery about the
+  murders. Meanwhile\, DDA’s Morales and Price ask for fellow
+  DDA Dekker’s help to convict the culprit.
+UID:LAO_LA_1_18
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Law & Order: Los Angeles Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110525T000000Z
+DTEND:20110525T010000Z
+SUMMARY:The Listener 2x13 - Reckoning
+DESCRIPTION:Toby connects with a gifted young woman whose mental powers
+  appear to rival or even surpass his own who maybe connected to
+  a series of suspicious suicides linked to an old biker gang.
+UID:_2_13
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: The Listener Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110524T010000Z
+DTEND:20110524T020000Z
+SUMMARY:Make It or Break It 2x19 - What Lies Beneath
+DESCRIPTION:The World's competition in Rio de Janeiro is fast approaching\,
+  yet the team is preoccupied by everything but gymnastics:
+  Lauren fights for Max's attention while simultaneously trying
+  to keep her involvement in Sasha's resignation a secret\;
+  Payson finds the perfect solution to her family's financial
+  problems\, with potentially costly consequences\; and Kelly
+  must choose between pleasing her mother and being a loyal
+  teammate. Even Sasha is distracted by his feelings for Summer
+  and news of her impending wedding. Through it all\, team
+  captain Kaylie tries to keep the peace among her teammates
+  while growing increasingly uncomfortable with lying to the
+  public about her anorexia -- not only is keeping such a huge
+  secret hurting her recovery\, but it's also affecting her
+  gymnastics.\n\nWhen the team arrives in Rio\, things go from
+  bad to worse when the girls crumble under the seemingly
+  insurmountable pressure. As the pettiness and in-fighting grow
+  out-of-control\, will Coach Belov be able to convince his team
+  to believe in themselves and each other before it's too late\,
+  or will the girls have to kiss their medal aspirations goodbye?
+UID:MAKEITORBREAKIT_2_19
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Make It or Break It Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110524T020000Z
+DTEND:20110524T030000Z
+SUMMARY:Make It or Break It 2x20 - Worlds Apart
+DESCRIPTION:
+UID:MAKEITORBREAKIT_2_20
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Make It or Break It Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110527T020000Z
+DTEND:20110527T023000Z
+SUMMARY:Manhunters: Fugitive Task Force 3x21 - Hot and Cold
+DESCRIPTION:
+UID:_3_21
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Manhunters: Fugitive Task Force Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110527T023000Z
+DTEND:20110527T030000Z
+SUMMARY:Manhunters: Fugitive Task Force 3x22 - The Ex
+DESCRIPTION:
+UID:_3_22
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Manhunters: Fugitive Task Force Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110602T020000Z
+DTEND:20110602T030000Z
+SUMMARY:Men of a Certain Age 2x7 - Some Night
+DESCRIPTION:
+UID:MENOFACERTAINAGE_2_7
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Men of a Certain Age Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110526T000000Z
+DTEND:20110526T003000Z
+SUMMARY:The Middle 2x24 - Back To Summer
+DESCRIPTION:With only three days left until summer vacation\, Frankie is
+  ecstatic that she's made it through another school year with
+  the family. But her happiness turns to panic when she and Mike
+  learn that Brick needs to write a daily journal and turn it in
+  to Ms. Rinsky or risk not moving up to the fourth grade\; that
+  Axl hasn't fulfilled his required 30 days of community
+  service\; and that\, because of an error\, Sue must prove that
+  she never took a sick day from school in order to receive a
+  perfect attendance award at her middle school graduation
+  ceremony.
+UID:MIDDLE_2_24
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: The Middle Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110526T010000Z
+DTEND:20110526T013000Z
+SUMMARY:Modern Family 2x24 - The One That Got Away
+DESCRIPTION:Jay wants nothing more than to have a quiet birthday out
+  fishing on the lake\, but the family take that as him wanting a
+  big celebration\, and in their frantic scramble to put
+  everything together\, Claire and Mitchell wind up trapped in
+  the yard of their childhood home\; Phil runs into his old
+  college nemesis while at the mall with Gloria and Lily\;
+  Cameron gets himself into some hot water at the bakery\, and
+  the kids frantically do some creative editing on grandpa's
+  birthday video\, all of which leaves Jay with a headache.
+UID:MODERNFAMILY_2_24
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Modern Family Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110602T010000Z
+DTEND:20110602T020000Z
+SUMMARY:MythBusters 9x8 - Dodge a Bullet
+DESCRIPTION:
+UID:MYTHBUSTERS_9_8
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: MythBusters Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110524T020000Z
+DTEND:20110524T023000Z
+SUMMARY:Nurse Jackie 3x9 - Have You Met Ms. Jones?
+DESCRIPTION:Out of pills and jonesing for a high\, Jackie is confronted
+  about the missing drugs from Oncology\; Coop decides to start a
+  family of his own and finds an old girlfriend on Facebook\;
+  Zoey reconsiders her relationship to Lenny after he's put on a
+  heart monitor.
+UID:NURSEJACKIE_3_9
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Nurse Jackie Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110527T010000Z
+DTEND:20110527T020000Z
+SUMMARY:Police Women of ... 6x7 - You Can't Karate Chop a Car
+DESCRIPTION:
+UID:_6_7
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Police Women of ... Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110524T190000Z
+DTEND:20110524T200000Z
+SUMMARY:Primeval 5x1 - Series 5\, Episode 1
+DESCRIPTION:Connor is working on a new secret project for Burton. Things
+  become difficult for Connor and Abby.
+UID:_5_1
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Primeval Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110531T190000Z
+DTEND:20110531T200000Z
+SUMMARY:Primeval 5x2 - Season 5\, Episode 2
+DESCRIPTION:
+UID:_5_2
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Primeval Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110606T190000Z
+DTEND:20110606T200000Z
+SUMMARY:Primeval 5x3 - Season 5\, Episode 3
+DESCRIPTION:
+UID:_5_3
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Primeval Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110526T210000Z
+DTEND:20110526T213000Z
+SUMMARY:Psychoville 2x4 - Series 2\, Episode 4
+DESCRIPTION:Jeremy Goode looks for the missing library book and desperate
+  measures end up being needed. Mrs Wren finds herself in peril
+  from several different parties.
+UID:PSYCHOVILLE_2_4
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Psychoville Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110602T210000Z
+DTEND:20110602T213000Z
+SUMMARY:Psychoville 2x5 - Series 2\, Episode 5
+DESCRIPTION:With the danger increasing\, and not many witnesses left\,
+  Tealeaf\, and Peter Bishop\, attempt to solve the mystery of
+  the locket.
+UID:PSYCHOVILLE_2_5
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Psychoville Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110604T020000Z
+DTEND:20110604T030000Z
+SUMMARY:Real Time with Bill Maher 9x18 - Season 9\, Episode 18
+DESCRIPTION:
+UID:REALTIMEWITHBILLMAHER_9_18
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Real Time with Bill Maher Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110524T020000Z
+DTEND:20110524T030000Z
+SUMMARY:Sanctuary 3x17 - Normandy
+DESCRIPTION:Discover Magnus's role in a turning point of World War II
+  history.
+UID:SANCTUARY_3_17
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Sanctuary Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110524T103000Z
+DTEND:20110524T113000Z
+SUMMARY:Sea Patrol 5x5 - Dead Zone
+DESCRIPTION:
+UID:_5_5
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Sea Patrol Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110524T000000Z
+DTEND:20110524T010000Z
+SUMMARY:The Secret Life of the American Teenager 3x23 - Round II
+DESCRIPTION:Quarreling continues among the kids\, despite the festive baby
+  shower being held for Adrian.
+UID:SECRETLIFEOFTHEAMERICANTEENAGER_3_23
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: The Secret Life of the American Teenager Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110531T000000Z
+DTEND:20110531T010000Z
+SUMMARY:The Secret Life of the American Teenager 3x24 - It's Not Over
+  Till It's Over
+DESCRIPTION:Adrian and Ben both have second thoughts about their upcoming
+  wedding\; George continues meddling in his daughters lives.
+UID:SECRETLIFEOFTHEAMERICANTEENAGER_3_24
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: The Secret Life of the American Teenager Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110531T010000Z
+DTEND:20110531T020000Z
+SUMMARY:The Secret Life of the American Teenager 3x25 - To Be…
+DESCRIPTION:Amy gets mad when Ricky let's Jack use his apartment\; Adrian
+  is getting nervous about the baby.
+UID:SECRETLIFEOFTHEAMERICANTEENAGER_3_25
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: The Secret Life of the American Teenager Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110523T000000Z
+DTEND:20110523T003000Z
+SUMMARY:The Simpsons 22x22 - The Ned-Liest Catch
+DESCRIPTION:Feeling guilty for getting Mrs. Krabappel suspended after one
+  of his school pranks\, Bart helps her escape detention\, and
+  Ned Flanders winds up saving her life in the process.\n\nWhen
+  Edna and Ned start dating\, he is surprised to learn she's been
+  with many of Springfield's men\, including Homer and Aerosmith
+  drummer Joey Kramer (guest-voicing as himself).
+UID:SIMPSONS_22_22
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: The Simpsons Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110523T010000Z
+DTEND:20110523T013000Z
+SUMMARY:Sister Wives 2x10 - Gambling on the Future
+DESCRIPTION:
+UID:_2_10
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Sister Wives Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110606T010000Z
+DTEND:20110606T013000Z
+SUMMARY:Sister Wives 2x11 - TBA
+DESCRIPTION:
+UID:_2_11
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Sister Wives Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110527T000000Z
+DTEND:20110527T010000Z
+SUMMARY:So You Think You Can Dance 8x1 - Season 8\, Episode 1
+DESCRIPTION:
+UID:SOYOUTHINKYOUCANDANCE_8_1
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: So You Think You Can Dance Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110527T010000Z
+DTEND:20110527T020000Z
+SUMMARY:So You Think You Can Dance 8x2 - Season 8\, Episode 2
+DESCRIPTION:
+UID:SOYOUTHINKYOUCANDANCE_8_2
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: So You Think You Can Dance Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110602T000000Z
+DTEND:20110602T010000Z
+SUMMARY:So You Think You Can Dance 8x3 - New York and Salt Lake City
+  Auditions
+DESCRIPTION:
+UID:SOYOUTHINKYOUCANDANCE_8_3
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: So You Think You Can Dance Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110603T000000Z
+DTEND:20110603T010000Z
+SUMMARY:So You Think You Can Dance 8x4 - Los Angeles Auditions
+DESCRIPTION:
+UID:SOYOUTHINKYOUCANDANCE_8_4
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: So You Think You Can Dance Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110523T035500Z
+DTEND:20110523T041000Z
+SUMMARY:Superjail! 2x8 - The Budding of the Wurbuxx
+DESCRIPTION:
+UID:_2_8
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Superjail! Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110606T035500Z
+DTEND:20110606T041000Z
+SUMMARY:Superjail! 2x9 - Superjail Grand Prix
+DESCRIPTION:
+UID:_2_9
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Superjail! Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110601T013000Z
+DTEND:20110601T020000Z
+SUMMARY:Traffic Light 1x13 - Help Wanted
+DESCRIPTION:Mike and Lisa hire a hot young babysitter for Tommy\, but the
+  skimpily clad teen brings more teen angst to the household than
+  the Rileys can handle. Meanwhile\, when a disabled
+  food-delivery guy accidentally intrudes upon Callie's naked
+  dance party\, Adam finally confronts her about her habits in
+  the apartment. But when they find out the delivery guy is also
+  a computer whiz and decide to hire him\, Adam learns a lesson
+  in indecent exposure the hard way. Also\, Mike and Adam try to
+  convince Ethan to get rid of his hideous necklace\, but he
+  finds comfort in a new fling who does not see the necklace the
+  same way.
+UID:_1_13
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Traffic Light Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110523T020000Z
+DTEND:20110523T030000Z
+SUMMARY:Treme 2x5 - Slip Away
+DESCRIPTION:Lt. Colson questions the quality of police investigations\;
+  Janette lands at Le Bernardin\; Annie attempts composing\;
+  Davis discovers new talent\; Sofia gets an internship.
+UID:TREME_2_5
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Treme Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110530T020000Z
+DTEND:20110530T030000Z
+SUMMARY:Treme 2x6 - Feels Like Rain
+DESCRIPTION:Hidalgo does a favor for a councilman\; Antoine appoints a
+  straw boss\; Janette discovers that Jacques is in trouble\;
+  Sofia has a realization\; John Hiatt and Henry Butler perform.
+UID:TREME_2_6
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Treme Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110526T010000Z
+DTEND:20110526T020000Z
+SUMMARY:Ultimate Fighter 13x9 - Season 13\, Episode 9
+DESCRIPTION:
+UID:ULTIMATEFIGHTER_13_9
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Ultimate Fighter Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110602T010000Z
+DTEND:20110602T020000Z
+SUMMARY:Ultimate Fighter 13x10 - Season 13\, Episode 10
+DESCRIPTION:
+UID:ULTIMATEFIGHTER_13_10
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Ultimate Fighter Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110524T023000Z
+DTEND:20110524T030000Z
+SUMMARY:United States of Tara 3x9 - Bryce Will Play
+DESCRIPTION:Dr. Hattaras and Tara seek the help of another professional to
+  deal with her violent new alter Bryce\; Marshall is confused
+  when his short film about Max clearly hurts his father's
+  feelings\; Charmaine hangs out with a group of "chic moms\;"
+  Kate continues her long distance relationship with Evan despite
+  the interference of his son.
+UID:UNITEDSTATESOFTARA_3_9
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: United States of Tara Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110525T190000Z
+DTEND:20110525T200000Z
+SUMMARY:Waterloo Road 7x4 - Series 7\, Episode 4
+DESCRIPTION:New girl Evie Prior shows up at the school but something about
+  her story doesn't quite add up. She is soon upsetting the rest
+  of her classmates and causing problems for Karen. Evie attempts
+  to empathise with Finn\, who's devastated by girlfriend Sam's
+  terminal illness. The school ends up being forced to deal with
+  the fallout when the truth about Evie is revealed. Eleanor and
+  Daniel have their appraisals as Karen sits in on their classes
+  and finds room for improvement for both teachers.
+UID:WATERLOOROAD_7_4
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Waterloo Road Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110601T190000Z
+DTEND:20110601T200000Z
+SUMMARY:Waterloo Road 7x5 - Series 7\, Episode 5
+DESCRIPTION:Karen's new community café prepares to open for the first time
+  and she's invites the Director of Education along for the grand
+  opening. Twins Shona and Rhona cause problems in class after
+  they're caught in the middle of a custody battle between their
+  mum and gran.The twins' gran takes matters into her own hands
+  as the court makes its ruling. Rob's estranged wife\, Naomi\,
+  warns Karen off her husband in a bid to win him back.  Vicki
+  finally sees Aiden's true colours and ends up being forced to
+  admit what happened to Jess and Ronan.
+UID:WATERLOOROAD_7_5
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Waterloo Road Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110526T023000Z
+DTEND:20110526T030000Z
+SUMMARY:Workaholics 1x8 - To Friend A Predator
+DESCRIPTION:A local child molester attracts the guys' attention\, but not\,
+  as it turns out\, for the reason they expected.
+UID:_1_8
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Workaholics Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110602T023000Z
+DTEND:20110602T030000Z
+SUMMARY:Workaholics 1x9 - Muscle I'd Like to Flex
+DESCRIPTION:Blake and Anders feel left out when Adam falls for a wealthy
+  older woman.
+UID:_1_9
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Workaholics Episodes, TV Shows
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20110603T230000Z
+DTEND:20110603T233000Z
+SUMMARY:Young Justice 1x10 - Targets
+DESCRIPTION:
+UID:_1_10
+SEQUENCE:0
+DTSTAMP:20110523T212208Z
+TRANSP:TRANSPARENT
+CATEGORIES: Young Justice Episodes, TV Shows
+END:VEVENT
+END:VCALENDAR

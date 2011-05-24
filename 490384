@@ -1,0 +1,110 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+    <title>Verificaci&oacute;n de humanidad</title>
+    <link rel="stylesheet" href="http://www.seriesyonkis.com/archivos/compact.css" type="text/css" media="screen" /><!--[if lte IE 6]>
+<link rel="stylesheet" href="http://www.seriesyonkis.com/archivos/compact-ie.css?skin=default" type="text/css" media="screen" />
+<![endif]-->
+    <link rel="alternate" type="application/rss+xml" title="Series Yonkis RSS Feed" href="http://www.seriesyonkis.com/feed/" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Verificacion de humanidad" />
+    <meta name="googlebot" content="noarchive" />
+    <meta name="robots" content="noarchive" />
+    <script type="text/javascript">
+//<![CDATA[
+    if(top.location != self.location)top.location = self.location;
+    //]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+    var vl_wallpaper_count = 26;
+    var vl_wallpaper_current = 23;
+    var search_phrase = "Buscar Serie...";
+    var search_label = "Escribe la serie que busques y pulsa enter.";
+    //]]>
+    </script>
+    <style type="text/css">
+/*<![CDATA[*/
+    body.c3 {font-family: "verdana", sans-serif; font-size: 22px}
+    div.c2 {overflow: hidden;}
+    h1.c1 {font-family: "Trebuchet MS", sans-serif; font-size: 22px}
+    /*]]>*/
+    </style>
+</head>
+
+<body id="wallpaper23" class=" headerfixed plainheader quadbar c3">
+    <div id="header">
+        <h1 class='c1'><a href="http://www.seriesyonkis.com" title="Series Online">Series Yonkis</a>
+        <br /></h1>
+    </div>
+
+    <div id="bodyowner">
+    
+    <div id="center_div" style="margin: 0 auto; width: 800px;">
+        
+    
+            <div id="contentcontainer">
+                <div class="blogbefore">
+                    <div class="left"></div>
+
+                    <div class="right"></div>
+
+                    <div class="middle"></div>
+                </div>
+
+                <div class="post c2">
+                <h1 style="color:#EAAB02;">Ups! Necesitamos comprobar que eres humano</h1>
+                
+                <div class="footeritems"></div>
+                
+                <p>Parece que vas demasiado rápido.</p>
+                
+                <p>Vamos a comprobar que eres un humano, introduce las palabras que ves en la imagen que te mostramos a continuación:</p>
+                
+                <p align="right">El equipo de SeriesYonkis.</p>
+                
+                <div class="footeritems"></div>
+                
+                <div style="margin: 0 auto">
+ 		 <script type="text/javascript">
+ 		var RecaptchaOptions = {
+    		theme : 'blackglass'
+ 		};
+ 		</script>
+	    <form action="" method="post">
+
+                <div id="img" style="float:left; margin-right: 2%; width:33%;"><img style="padding: 10px 5px 4px 40px" src="http://s.staticyonkis.com/images/captchabot.png" align="absmiddle" /></div>
+                
+		  <div style="float:right; margin-right: 13%; margin-top: 33px; width:45%;"><script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LffdMMSAAAAAMlnKeTSDA5QMap9svS5cdV8aFf0"></script>
+
+	<noscript>
+  		<iframe src="http://www.google.com/recaptcha/api/noscript?k=6LffdMMSAAAAAMlnKeTSDA5QMap9svS5cdV8aFf0" height="300" width="500" frameborder="0"></iframe><br/>
+  		<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+  		<input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>
+	</noscript><input type="submit" value="Validar codigo" /></div>
+
+	    		
+	    		</form>		  
+
+		  </div> 	
+		  	
+                 </div> 
+                <div style="clear: both;"></div>
+                    
+
+                <div class="blogafter">
+                    <div class="left"></div>
+
+                    <div class="right"></div>
+
+                    <div class="middle"></div>
+                </div>
+            <!--</div>-->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

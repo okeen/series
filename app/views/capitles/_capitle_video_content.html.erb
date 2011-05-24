@@ -3,14 +3,14 @@
     <%= image_tag  "rails.png" %>
   </div>
   <div class="capitle_content_item_info">
-    <p class="capitle_content_item_description"><%= video.description %></p>
-    <p class="capitle_content_item_languaje_and_subtitles">Languaje: <%= video.languaje %>, subtitles: <%= video.subtitles || "no"  %> </p>
-  </div>
+    <div class="capitle_content_item_description"><%= video.description || "Descripción"%></div>
 
+    <div class="capitle_content_item_languaje_and_subtitles" >Languaje: <%= video.languaje %>, subtitles: <%= video.subtitles || "no"  %> </div>
+    <div class="capitle_content_item_url clickable_container">
+      <%= link_to video.url, video.url %>
+    </div>
+  </div>
   <div class="capitle_content_item_social_actions">
     <%= image_tag  "like_button.jpg"%>
-    
   </div>
-
-
 </div>

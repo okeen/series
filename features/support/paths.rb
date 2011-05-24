@@ -12,6 +12,8 @@ module NavigationHelpers
       '/'
     when /the series home\s?page/
       "/home"
+    when /the seriesyonkis main\s?page/
+      "http://www.seriesyonkis.com/ultimos-capitulos.php/"
     when /the series catalog\s?page/
       "/catalog"
     when /the series with letter "([^"]*)" catalog\s?page/ #filtering letter

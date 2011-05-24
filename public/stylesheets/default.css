@@ -390,3 +390,27 @@ body, p, ol, ul, td {
   text-align: center;
   border-radius: 13px 13px 0px 0px;
 }
+
+.capitle_content_item {
+  color: black;
+  height: 70px;
+  PADDING: 5px;
+}
+.capitle_content_item_icon {
+  width: 49px;
+  float: left;
+}
+.capitle_content_item_social_actions {
+  margin: 0 0 0 0;
+  width: 49px;
+  float: right;
+  height: 100%;
+  position: relative;
+  top: -59px;
+}
+.capitle_content_item_info {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 10px;
+
+}
