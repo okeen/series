@@ -1,0 +1,56 @@
+#encoding: utf-8
+
+  task :fill_db_with_videos => :environment do
+      #------update_Series.rb------
+# Loads an ics calendar file containing tv shows airing as calendar events, creates
+# a CSV file containing the capitles it needs to fetch, and fires a sy-link-rober 
+# to fetch the urls for these capitles :)
+require 'calendar_series_extractor'
+
+def persist_capitle(capitle)
+    serie = Serie.titled(capitle[:serie]).first
+    if serie.blank?
+      puts "Not found serie #{capitle[:serie]}" 
+      return 
+    end
+    puts "Found existing serie #{serie.title}"
+    capitle = serie.capitle.season_capitle(capitle[:season], capitle[:order])
+    unless capitle.blank?
+      puts "Capitle already exists, skipping..." 
+      return 
+    end
+    puts "Capitle not found, creating new..." 
+    if serie.capitles.create(
+      :season => capitle[:season],
+      :order =>  capitle[:order],
+      :title => capitle[:title],
+      :description => capitle[:description],
+      :airing_date => capitle[:airing_date])
+     
+      puts "Created new capitle"
+    end
+      
+end
+
+CALENDAR_ICS_FILE = "db/current_week.ics"
+calendar_episode_extractor = CalendarSeriesExtractor.new(CALENDAR_ICS_FILE)
+
+todays_new_capitles = calendar_episode_extractor.day_capitles(Date.today)
+puts "Found #{todays_new_capitles.count} new capitles:"
+
+todays_new_capitles.each do |capitle|
+  puts "\n==========================================================="
+  puts "\tNew capitle: #{capitle.inspect}"
+  puts "==========================================================="
+  persist_capitle(capitle)
+  #capitle_videos = fetch_sy_videos_for_capitle(capitle)
+#   puts "\tVideos:"
+#   capitle_videos.each do |video|
+#     #video_info = "\t\t#{video}   -> "
+#     persist_video(video)
+#     puts video_info + "persisted OK"
+#   end
+  #puts Capitle.inspect
+end
+
+  end

@@ -1,0 +1,25 @@
+#encoding: utf-8
+require 'icalendar'
+require 'date'
+
+class CalendarSeriesExtractor
+  
+  @calendar = nil
+  
+  def initialize(file)
+    @ics_file = File.new(file, "r")
+    raise "File #{file} not found, exiting" and exit unless @ics_file.exists?
+  end
+  
+  def todays_capitles
+    load_calendar unless @calendar
+    
+  end
+  
+  private 
+  
+  def load_calendar
+    @calendar = Icalendar.parse(@ics_file)
+    puts "Calendar file #{@ics_file.inspect} loaded OK" 
+  end
+end

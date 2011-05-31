@@ -1,0 +1,22 @@
+require 'open-uri'
+require 'hpricot'
+require 'thread'
+require 'csv'
+
+url = "http://on-my.tv"
+@@user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.36 (KHTML, like Gecko) Chrome/13.0.766.0 Safari/534.36"
+@username = "eneko.taberna@gmail.com"
+
+options = {
+    'User-Agent' => @@user_agent,
+    :http_basic_authentication=>[@username, "gotzon"]
+  }
+doc = Hpricot(open(url, options ))
+puts "Contacted, searching doc..."
+
+
+searches = doc./"div#options div.o2 a:nth(0)" #/
+#drop first as it is another link
+  
+file_url = link.attributes['href']
+puts "Foudn!! #{file_url}"
