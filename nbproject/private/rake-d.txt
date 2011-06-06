@@ -1,6 +1,5 @@
 about=List versions of all Rails frameworks and the environment
 add_daily_new_capitles_to_db=
-auth\:gen\:site_key=Generates config/initializers/site_keys.rb
 cucumber=Alias for cucumber:ok
 cucumber\:all=Run all features
 cucumber\:ok=Run features that should pass
@@ -51,7 +50,7 @@ doc\:clobber_plugins=
 doc\:clobber_rails=
 doc\:guides=
 doc\:plugins=
-doc\:plugins\:restful_authentication=
+doc\:plugins\:authlogic_facebook_shim=
 doc\:rails=
 doc\:reapp=
 doc\:rerails=

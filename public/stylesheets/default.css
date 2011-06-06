@@ -66,10 +66,9 @@ h2 {
 }
 .header a {
 	color: #888;
-	display: block;
-	line-height: 120px;
-	text-decoration: none;
-	width: 100%;
+	
+	width: 40%;
+        float: left;
 }
 .header span {padding-left: 32px;}
 .header a:hover {
@@ -413,4 +412,13 @@ body, p, ol, ul, td {
   margin-right: 50px;
   padding-left: 10px;
 
+}
+
+#user_panel {
+    float: right;
+    border: 1px solid;
+    border-color: white;
+    width: 400px;
+    height: 100%;
+    
 }

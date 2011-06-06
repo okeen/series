@@ -7,7 +7,8 @@ Series::Application.routes.draw do
       resources :capitles
   end
 
-  
+  resources :user_sessions
+  resources :users
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

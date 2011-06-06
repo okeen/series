@@ -1,0 +1,9 @@
+development:
+      app_id: 123164501100199
+      api_key: c7ca0f5a3ce62bcb695ea7bfde29aa76
+      secret_key: 079e59b278842123aff9d6438cbe9f0e
+
+production:
+      app_id: appid
+      api_key: apikey
+      secret_key: secretkey

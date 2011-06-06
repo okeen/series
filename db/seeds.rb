@@ -20,7 +20,6 @@
 #  end
 #end
 
-DATA_CSV_FILE = "db/video_data.csv"
 DATA_CSV_FILE = "db/sy-export.csv"
 
 require 'csv'

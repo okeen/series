@@ -44,4 +44,6 @@ gem 'faker'
 gem "will_paginate", "~> 3.0.pre2"
 gem 'icalendar'
 gem 'hpricot'
-#gem 'koala'
+gem 'koala'
+gem "authlogic"
+#gem 'authlogic_facebook_shim', :git => 'git://github.com/james2m/authlogic_facebook_shim.git'

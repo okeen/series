@@ -1,14 +1,22 @@
 module ApplicationHelper
   def header
     content_tag :div, :id=>'header', :class=>'header' do
-      link_to "Seri.es", root_path
+      link_to( "Seri.es", root_path)+
+      user_panel
     end
   end
 
+  def user_panel
+    content_tag :div, :id=>'user_panel' do
+      '<div id="user_panel_title">Login to unleash the power</div>'.html_safe+
+      '<fb:login-button perms="read_stream,publish_stream,email" show-faces="false" width="200" max-rows="1"></fb:login-button>'.html_safe
+    end
+  end
+  
   def nav_menu
     content_tag :div, :id=>'nav', :class=>'nav' do
       link_to( "Indice", series_index_path)+
-        clearer
+      clearer
     end
   end
 
@@ -40,7 +48,7 @@ module ApplicationHelper
 
   def catalog_header
     content_tag :div, :class=> 'catalog_header' do
-        (
+      (
         content_tag :div, :class => 'catalog_header_tab clickable_container z-index-2 last_tab' do
           link_to "Favourites", home_path
         end

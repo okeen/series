@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110525165232) do
+ActiveRecord::Schema.define(:version => 20110531140535) do
 
   create_table "capitles", :force => true do |t|
     t.string   "title"
@@ -29,6 +29,39 @@ ActiveRecord::Schema.define(:version => 20110525165232) do
     t.text     "description"
     t.integer  "seasons_count",  :default => 0
     t.integer  "capitles_count", :default => 0
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "user_sessions", :force => true do |t|
+    t.string   "access_token"
+    t.integer  "expires"
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", :force => true do |t|
+    t.string   "username",                          :null => false
+    t.string   "name",                              :null => false
+    t.string   "last_name"
+    t.string   "middle_name"
+    t.string   "email",                             :null => false
+    t.string   "location"
+    t.string   "gender"
+    t.integer  "timezone"
+    t.string   "locale"
+    t.string   "persistence_token"
+    t.string   "access_token"
+    t.string   "facebook_id"
+    t.integer  "login_count",        :default => 0, :null => false
+    t.integer  "failed_login_count", :default => 0, :null => false
+    t.datetime "last_request_at"
+    t.datetime "current_login_at"
+    t.datetime "last_login_at"
+    t.string   "current_login_ip"
+    t.string   "last_login_ip"
+    t.string   "password"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
