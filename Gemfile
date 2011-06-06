@@ -4,7 +4,6 @@ gem 'rails', '3.0.7'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
 gem 'mysql2', '< 0.3'
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -46,4 +45,5 @@ gem 'icalendar'
 gem 'hpricot'
 gem 'koala'
 gem "authlogic"
+gem 'heroku'
 #gem 'authlogic_facebook_shim', :git => 'git://github.com/james2m/authlogic_facebook_shim.git'
