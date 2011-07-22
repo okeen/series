@@ -13,39 +13,7 @@
   </head>
   <body>
     <script>
-      $(function() {
-        window.fbAsyncInit = function() {
-          FB.init({appId: '123164501100199', status: true, cookie: true, xfbml: true});
-          FB.Event.subscribe('auth.sessionChange', function(response) {
-            alert("Session " + response.status);
-            $.ajax({
-              url: "/user_sessions/",
-              type: 'POST',
-              data: response.session,
-              success: function(){
-                alert("User session created OK");
-              }})
-          });
-          FB.Event.subscribe('auth.login', function(response) {
-            //New user on site, notify it
-            $.ajax({
-              url: "/users/",
-              type: 'POST',
-              data: response.session,
-              success: function(){
-                alert("New User created OK");
-              }})
-          });
-          FB.Event.subscribe('auth.statusChange', function(response) {
-            alert("Status " + response.status);
-          });
-
-        };
-
-        $('body').append('<div id="fb-root"></div>');
-
-        $.getScript(document.location.protocol + '//static.ak.fbcdn.net/connect/en_US/core.debug.js');
-      })
+      
     </script>
     <div id="main_container" class="container">
       <%= header %>
